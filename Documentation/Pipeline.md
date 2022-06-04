@@ -1,5 +1,11 @@
 # CircleCi Pipeline
 
+## Steps
+
+1 - It starts after commiting new changes to the master branch
+2 - It gets the update then It starts the below `udagram` workflow
+
+
 ## Orbs
     `node: circleci/node@5.0.2`
     `eb: circleci/aws-elastic-beanstalk@2.0.1`

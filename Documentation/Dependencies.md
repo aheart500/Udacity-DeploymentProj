@@ -1,4 +1,13 @@
+# Main Dependacies
+
+NodeJs\
+NPM\
+PostgreSQL
+
 # Front-end
+
+
+
 
 The front end uses:
     `"@angular/common": "^8.2.14",`
@@ -17,6 +26,7 @@ The front end uses:
     `"zone.js": "~0.9.1"`
 
 # Back-end
+
 
 The back-end uses:
     `"@types/bcryptjs": "2.4.2",`
