@@ -58,6 +58,7 @@ jobs:
       - run:
           name: Set EB Environment Variables
           command: |
+            cd udagram/udagram-api
             eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME
             eb setenv POSTGRES_PASSWORD=$POSTGRES_PASSWORD
             eb setenv POSTGRES_HOST=$POSTGRES_HOST
@@ -67,6 +68,7 @@ jobs:
             eb setenv AWS_PROFILE=$AWS_PROFILE
             eb setenv JWT_SECRET=$JWT_SECRET
             eb setenv URL=$URL
+            cd ../..
       - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
