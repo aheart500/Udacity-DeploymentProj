@@ -31,7 +31,8 @@ CircleCi will not proceed to the deployment step unless their is a confirmation 
 2 - eb/setup\
 3 - aws-cli/setup\
 4 - checkout\
-5 - Deploy App
+5 - Set ElasticBeanStalk Environment Varaibles\
+6 - Deploy App
 
 ## Workflow
 
